@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'poppins';
+}
+body{
+    background-color: #504d4dc6;
+}
+h1{
+    text-align: center;
+}
+.user-card-section{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin: auto;
+}
+.user-card-section .user-card img{
+    width: 130px;
+    object-fit: cover;
+    border-radius: 100%;
+    margin-bottom: 20px;
+}
+.user-card-section .user-card{
+    background-color: #fff;
+    width: 220px;
+    margin:auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px 15px;
+    border-radius: 8px;
+    box-shadow: 10px 10px 10px rgba(41, 40, 40, 0.948);
+    transition: 0.3s ease-in-out;
+}
+.user-card-section .user-card:hover{
+    transform: translateY(-5px);
+    box-shadow: 10px 10px 10px 8px rgba(41, 40, 40, 0.948);
+}
+.user-card-section .user-card .username{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+.user-card-section .user-card .username .firstname,
+.user-card-section .user-card .username .lastname{
+    font-size: 16px;
+    color: dodgerblue;
+}
+.user-card-section .user-card .id{
+    font-size: 11px;
+    font-style: italic;
+}
+
+.user-card-section .user-card .social-handle{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-top: 10px;
+}
+.user-card-section .user-card-1 img{
+    width: 130px;
+    object-fit: cover;
+    border-radius: 100%;
+    margin-bottom: 20px;
+}
+.user-card-section .user-card:hover{
+    transform: translateY(-5px);
+    box-shadow: 10px 10px 10px 8px rgba(41, 40, 40, 0.948);
+}
+.user-card-section .user-card{
+    background-color: #fff;
+    width: 220px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px 15px;
+    border-radius: 8px;
+    box-shadow: 10px 10px 10px rgba(41, 40, 40, 0.948);
+    transition: 0.3s ease-in-out;
+}
+
+.user-card-section .user-card .social-handle{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-top: 10px;
+}
